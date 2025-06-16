@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donating Animal Shelters</title>
+    <link rel="stylesheet" href="Home.css">
 </head>
 <body>
-    <nav>
-        <a href="Home Page/Home.html">Home</a> |
-        <a href="Location Page/shelters.html">Shelters</a> |
-        <a href="Impact Page/ImpactPage.html">Impact</a> |
-        <a href="Volunteers.html">Volunteers</a>
-    </nav>
+    <header>
+        <h1>Welcome to Donating Animal Shelters</h1>
+        <nav>
+            <ul>
+                <li><a href="../Home Page/Home.html" class="nav-button">Home</a></li>
+                <li><a href="../Location Page/shelters.html" class="nav-button">Shelters</a></li>
+                <li><a href="../Impact Page/ImpactPage.html" class="nav-button">Impact</a></li>
+                <li><a href="../Volunteer Page/volunteers.html" class="nav-button">Volunteers</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Welcome to Donating Animal Shelters</h1>
-    <img src="Home Page/cat1.jpg" alt="Cute Cat" />
-    <p>Your support helps us provide care and shelter for animals in need.</p>
-    <h2>Get Involved</h2>
-    <p>
-        Join us in making a difference. Whether you want to volunteer, donate, or adopt, your contribution is invaluable.
-    </p>
-    <p>
-        Every year, over <strong>6.5 million</strong> shelter animals need loving homes, but sadly, nearly <strong>1.5 million</strong> are euthanized due to lack of resources. Your donation can provide food, medical care, and safe shelter to help reduce this number and save lives. Just a small contribution can make a huge difference—<strong>$25</strong> can feed a shelter pet for a month and bring them one step closer to a forever home.
-    </p>
+    <main>
+        <img src="cat1.jpg" alt="Cute Cat" class="small-image" />
+        <p class="intro">
+            Your support helps us provide care and shelter for animals in need.
+        </p>
 
-    <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/rskFaiDIEwA?si=BW6QcKFdU55hFgZd" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share
+        <section class="get-involved">
+            <h2>Get Involved</h2>
+            <p>Join us in making a difference. Whether you want to volunteer, donate, or adopt, your contribution is invaluable.</p>
+            <p>
+                Every year, over <strong>6.5 million</strong> shelter animals need loving homes, but sadly, nearly <strong>1.5 million</strong> are euthanized due to lack of resources.
+                Your donation can provide food, medical care, and safe shelter to help reduce this number and save lives.
+                Just a small contribution can make a huge difference —
+                <strong>$25</strong> can feed a shelter pet for a month and bring them one step closer to a forever home.
+            </p>
+        </section>
+
+        <section class="video-section">
+            <h2>Watch Our Impact</h2>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/rskFaiDIEwA?si=BW6QcKFdU55hFgZd"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Donating Animal Shelters. All rights reserved.</p>
+    </footer>
+</body>
+</html>
