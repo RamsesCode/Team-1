@@ -4,7 +4,6 @@ header {
     padding: 20px;
     text-align: center;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -29,6 +28,8 @@ nav ul {
     background-color: #f879c7;
     color: white;
 }
-.img {
 
+.text-block {
+    margin-bottom: 2rem;
+    padding-left: 20px;
 }
