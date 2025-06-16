@@ -1,1 +1,105 @@
+/* Reset some default spacing */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #f59d32;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.nav-button {
+  background-color: white;
+  color: #333;
+  border: 2px solid #5680ea;
+  padding: 8px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #f879c7;
+  color: white;
+}
+
+/* Main content styles */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px 30px 40px 30px;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 25px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.intro {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.get-involved h2 {
+  color: #f59d32;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.get-involved p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.video-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
+.small-image {
+  width: 400px; 
+  height: auto; 
+  margin: 0 auto;  
+    display: block;
+}
 
