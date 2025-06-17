@@ -1,10 +1,9 @@
 header {
-    background-color: #f59d32;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #f59d32;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
-
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -29,6 +28,37 @@ nav ul {
     background-color: #f879c7;
     color: white;
 }
-.img {
 
+main {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+form {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
 }
